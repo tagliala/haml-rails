@@ -51,10 +51,6 @@ module Haml
           end
         end
       end
-
-      rake_tasks do
-        load 'tasks/erb2haml.rake'
-      end
     end
   end
 end
